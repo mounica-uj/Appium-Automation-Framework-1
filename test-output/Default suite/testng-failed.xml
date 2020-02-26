@@ -3,7 +3,6 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-<<<<<<< HEAD
       <class name="com.powderhook.appium.cases.joinnow.NewUser">
         <methods>
           <include name="nameBefore"/>
@@ -12,16 +11,6 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.powderhook.appium.cases.joinnow.NewUser -->
-=======
-      <class name="com.powderhook.appium.cases.community.VerifyCommunityScreen">
-        <methods>
-          <include name="nameBefore"/>
-          <include name="verifyCommunityScreenFcuntinality"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.powderhook.appium.cases.community.VerifyCommunityScreen -->
->>>>>>> ccb3f1912f90b2adc60f710ca0483600fe6abedf
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

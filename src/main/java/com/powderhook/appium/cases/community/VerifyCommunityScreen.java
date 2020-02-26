@@ -21,11 +21,7 @@ public class VerifyCommunityScreen extends ActionHelper {
 	
 	
 	@Test
-<<<<<<< HEAD
 	public void verifyCommunityScreenFunctinality() throws InterruptedException {
-=======
-	public void verifyCommunityScreenFcuntinality() throws InterruptedException {
->>>>>>> ccb3f1912f90b2adc60f710ca0483600fe6abedf
 		
 		
 		VerifyValidLogIn login  = new VerifyValidLogIn();
@@ -34,12 +30,5 @@ public class VerifyCommunityScreen extends ActionHelper {
 		CommunityPage.VerifiedCommunityScreenFunctionality();
 		
 		
-<<<<<<< HEAD
-=======
-		
-	
-		
-	
->>>>>>> ccb3f1912f90b2adc60f710ca0483600fe6abedf
 	}	
 }

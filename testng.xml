@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AndroidSuite" parallel="classes">
+  <test thread-count="5" name="AllTests" parallel="false">
+    <classes>
+      
+      <class name="com.powderhook.appium.cases.login.VerifyValidLogIn"/>
+      <class name="com.powderhook.appium.cases.login.VerifyInvalidLogin"/>
+      
+    </classes>
+  </test> <!-- AllTests -->
+</suite> <!-- AndroidSuite -->

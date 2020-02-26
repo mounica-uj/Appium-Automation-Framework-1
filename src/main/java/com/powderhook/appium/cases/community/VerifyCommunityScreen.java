@@ -21,7 +21,7 @@ public class VerifyCommunityScreen extends ActionHelper {
 	
 	
 	@Test
-	public void verifyCommunityScreenFcuntinality() throws InterruptedException {
+	public void verifyCommunityScreenFunctinality() throws InterruptedException {
 		
 		
 		VerifyValidLogIn login  = new VerifyValidLogIn();
@@ -30,9 +30,5 @@ public class VerifyCommunityScreen extends ActionHelper {
 		CommunityPage.VerifiedCommunityScreenFunctionality();
 		
 		
-		
-	
-		
-	
 	}	
 }

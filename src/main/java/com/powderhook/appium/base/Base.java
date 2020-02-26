@@ -72,7 +72,8 @@ public class Base {
 		 */
 		//Logcat:
 				try {
-					String logPath = "C:\\Users\\MounicaJhansi\\Documents\\";
+					//String logPath = "C:\\Users\\MounicaJhansi\\Documents\\";
+					String logPath = "C:\\Users\\Samuelowoyemi\\Documents\\";
 					DateFormat sdf = new SimpleDateFormat("dd_MM_yyyy_HH-mm-ss");
 					Date todayNow = Calendar.getInstance().getTime();
 					String reportDate = sdf.format(todayNow);

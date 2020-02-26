@@ -2,42 +2,42 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-02-16T21:39:57 CST" name="Default suite" finished-at="2020-02-16T21:41:23 CST" duration-ms="85752">
+  <suite started-at="2020-02-26T11:48:03 CST" name="Default suite" finished-at="2020-02-26T11:48:48 CST" duration-ms="44561">
     <groups>
     </groups>
-    <test started-at="2020-02-16T21:39:57 CST" name="Default test" finished-at="2020-02-16T21:41:23 CST" duration-ms="85752">
-      <class name="com.powderhook.appium.cases.community.VerifyCommunityScreen">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.powderhook.appium.cases.community.VerifyCommunityScreen@5340477f]" started-at="2020-02-16T21:39:57 CST" name="setUp" finished-at="2020-02-16T21:40:12 CST" duration-ms="15131" status="PASS">
+    <test started-at="2020-02-26T11:48:03 CST" name="Default test" finished-at="2020-02-26T11:48:48 CST" duration-ms="44561">
+      <class name="com.powderhook.appium.cases.joinnow.NewUser">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.powderhook.appium.cases.joinnow.NewUser@5656be13]" started-at="2020-02-26T11:48:03 CST" name="setUp" finished-at="2020-02-26T11:48:15 CST" duration-ms="11887" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="nameBefore(java.lang.reflect.Method)[pri:0, instance:com.powderhook.appium.cases.community.VerifyCommunityScreen@5340477f]" started-at="2020-02-16T21:40:12 CST" name="nameBefore" finished-at="2020-02-16T21:40:12 CST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="nameBefore(java.lang.reflect.Method)[pri:0, instance:com.powderhook.appium.cases.joinnow.NewUser@5656be13]" started-at="2020-02-26T11:48:15 CST" name="nameBefore" finished-at="2020-02-26T11:48:15 CST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.powderhook.appium.cases.community.VerifyCommunityScreen.verifyCommunityScreenFcuntinality() throws java.lang.InterruptedException]]>
+                <![CDATA[public void com.powderhook.appium.cases.joinnow.NewUser.JoinNow() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- nameBefore -->
-        <test-method signature="verifyCommunityScreenFcuntinality()[pri:0, instance:com.powderhook.appium.cases.community.VerifyCommunityScreen@5340477f]" started-at="2020-02-16T21:40:12 CST" name="verifyCommunityScreenFcuntinality" finished-at="2020-02-16T21:41:20 CST" duration-ms="67590" status="PASS">
+        <test-method signature="JoinNow()[pri:0, instance:com.powderhook.appium.cases.joinnow.NewUser@5656be13]" started-at="2020-02-26T11:48:15 CST" name="JoinNow" finished-at="2020-02-26T11:48:46 CST" duration-ms="31047" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyCommunityScreenFcuntinality -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestContext)[pri:0, instance:com.powderhook.appium.cases.community.VerifyCommunityScreen@5340477f]" started-at="2020-02-16T21:41:20 CST" name="tearDown" finished-at="2020-02-16T21:41:23 CST" duration-ms="2973" status="PASS">
+        </test-method> <!-- JoinNow -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestContext)[pri:0, instance:com.powderhook.appium.cases.joinnow.NewUser@5656be13]" started-at="2020-02-26T11:48:46 CST" name="tearDown" finished-at="2020-02-26T11:48:48 CST" duration-ms="1587" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@2024293c]]>
+                <![CDATA[org.testng.TestRunner@1c80e49b]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.powderhook.appium.cases.community.VerifyCommunityScreen -->
+      </class> <!-- com.powderhook.appium.cases.joinnow.NewUser -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

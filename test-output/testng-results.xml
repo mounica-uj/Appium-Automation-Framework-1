@@ -2,42 +2,42 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-02-26T11:48:03 CST" name="Default suite" finished-at="2020-02-26T11:48:48 CST" duration-ms="44561">
+  <suite started-at="2020-02-27T09:21:37 CST" name="Default suite" finished-at="2020-02-27T09:22:14 CST" duration-ms="37526">
     <groups>
     </groups>
-    <test started-at="2020-02-26T11:48:03 CST" name="Default test" finished-at="2020-02-26T11:48:48 CST" duration-ms="44561">
-      <class name="com.powderhook.appium.cases.joinnow.NewUser">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.powderhook.appium.cases.joinnow.NewUser@5656be13]" started-at="2020-02-26T11:48:03 CST" name="setUp" finished-at="2020-02-26T11:48:15 CST" duration-ms="11887" status="PASS">
+    <test started-at="2020-02-27T09:21:37 CST" name="Default test" finished-at="2020-02-27T09:22:14 CST" duration-ms="37526">
+      <class name="com.powderhook.appium.cases.feed.FeedAction">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.powderhook.appium.cases.feed.FeedAction@5656be13]" started-at="2020-02-27T09:21:37 CST" name="setUp" finished-at="2020-02-27T09:21:49 CST" duration-ms="12041" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="nameBefore(java.lang.reflect.Method)[pri:0, instance:com.powderhook.appium.cases.joinnow.NewUser@5656be13]" started-at="2020-02-26T11:48:15 CST" name="nameBefore" finished-at="2020-02-26T11:48:15 CST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="nameBefore(java.lang.reflect.Method)[pri:0, instance:com.powderhook.appium.cases.feed.FeedAction@5656be13]" started-at="2020-02-27T09:21:49 CST" name="nameBefore" finished-at="2020-02-27T09:21:49 CST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.powderhook.appium.cases.joinnow.NewUser.JoinNow() throws java.lang.InterruptedException]]>
+                <![CDATA[public void com.powderhook.appium.cases.feed.FeedAction.clickFeed() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- nameBefore -->
-        <test-method signature="JoinNow()[pri:0, instance:com.powderhook.appium.cases.joinnow.NewUser@5656be13]" started-at="2020-02-26T11:48:15 CST" name="JoinNow" finished-at="2020-02-26T11:48:46 CST" duration-ms="31047" status="PASS">
+        <test-method signature="clickFeed()[pri:0, instance:com.powderhook.appium.cases.feed.FeedAction@5656be13]" started-at="2020-02-27T09:21:49 CST" name="clickFeed" finished-at="2020-02-27T09:22:12 CST" duration-ms="22869" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- JoinNow -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestContext)[pri:0, instance:com.powderhook.appium.cases.joinnow.NewUser@5656be13]" started-at="2020-02-26T11:48:46 CST" name="tearDown" finished-at="2020-02-26T11:48:48 CST" duration-ms="1587" status="PASS">
+        </test-method> <!-- clickFeed -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestContext)[pri:0, instance:com.powderhook.appium.cases.feed.FeedAction@5656be13]" started-at="2020-02-27T09:22:12 CST" name="tearDown" finished-at="2020-02-27T09:22:14 CST" duration-ms="2578" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@1c80e49b]]>
+                <![CDATA[org.testng.TestRunner@73db4768]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.powderhook.appium.cases.joinnow.NewUser -->
+      </class> <!-- com.powderhook.appium.cases.feed.FeedAction -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

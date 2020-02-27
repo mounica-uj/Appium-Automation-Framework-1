@@ -12,7 +12,7 @@ public class JoinNowScreen {
 		public static String PasswordOne = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View[2]/android.app.Dialog/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[4]/android.view.View[5]/android.view.View[1]/android.view.View/android.view.View[1]/android.widget.EditText";
 		public static String PasswordTwo = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View[2]/android.app.Dialog/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[4]/android.view.View[6]/android.view.View[1]/android.view.View/android.view.View[1]/android.widget.EditText";
 		
-		public static String SignUpButton = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View[2]/android.app.Dialog/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[4]/android.view.View[9]/android.widget.Button";
-		
+		public static String SignUpButton2 = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View[2]/android.app.Dialog/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[4]/android.view.View[9]/android.widget.Button";
+		public static String SignUpButton = "//*[contains(@text,'SIGN UP')]";
 
 }

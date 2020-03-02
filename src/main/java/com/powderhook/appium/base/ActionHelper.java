@@ -14,7 +14,15 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class ActionHelper extends Base {
 
+	public static WebElement findById(String id) {
 
+		return appium.findElement(By.id(id));
+	}
+	
+	public static WebElement findByLinkText(String LinkText) {
+
+		return appium.findElement(By.linkText(LinkText));
+	}
 	public static WebElement findByXapth(String xpath) {
 
 		return appium.findElement(By.xpath(xpath));

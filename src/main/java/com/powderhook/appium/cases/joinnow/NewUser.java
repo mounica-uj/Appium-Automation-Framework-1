@@ -4,7 +4,7 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 import org.testng.annotations.Test;
-
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -31,9 +31,15 @@ public class NewUser extends ActionHelper{
 		click(JoinNowScreen.LoginButton);
 		
 		Thread.sleep(4000);
-		click(JoinNowScreen.lstJoinNow);
 		
-		click(JoinNowScreen.lstJoinNow);
+		
+		//click(JoinNowScreen.lstJoinNow);
+		
+		appium.findElement(By.xpath("//*[@resource-id='phLoginJoinBtn']")).click();
+		
+		//appium.findElement(By.id("com.powderhook.app:id/phLoginJoinBtn")).click();
+		//appium.findElement(By.id("phLoginJoinBtn")).click();
+		//appium.findElement(By.xpath("//*[contains(@text,'JOIN')]")).click();
 		
 		type(JoinNowScreen.FirstName,"John");
 		type(JoinNowScreen.LastName,"Sovereign");
@@ -50,19 +56,26 @@ public class NewUser extends ActionHelper{
 		System.out.println(email);
 		type(JoinNowScreen.PasswordTwo,"Zoom2020");
 		type(JoinNowScreen.PasswordOne,"Zoom2020");
+	
 		
 		Thread.sleep(4000);
+		appium.findElement(By.xpath("//*[@resource-id='phJoinBtn']")).click();
+		
+		/*WebElement ClickSignUpId = appium.findElement(By.id("phJoinBtn"));
+		ClickSignUpId.click();*/
+		
 		//I need to add a working SCROLL HERE so that Appium can click button
-		WebElement ClickSignUp = findByXapth(JoinNowScreen.SignUpButton);
+		
+		/*WebElement ClickSignUp = findByXapth(JoinNowScreen.SignUpButton);
 		ClickSignUp.click();
 		
-		WebElement ClickSignUp2 = findByXapth(JoinNowScreen.SignUpButton);
-		ClickSignUp2.click();
-		Thread.sleep(10000);
+		WebElement ClickSignUp2 = findByXapth(JoinNowScreen.SignUpButton2);
+		ClickSignUp2.click();*/
+		Thread.sleep(7000);
 		
 	}
 	
-	/*
+	
 	@Test
 	public void clickFeed() throws InterruptedException 
 	{
@@ -79,7 +92,7 @@ public class NewUser extends ActionHelper{
 		type(HomeScreen.lstCommentBox,"I like this. Good job!");
 	} 
 	
-	
+	/*
 	
 	@Test
 	public void clickEvents() throws InterruptedException 

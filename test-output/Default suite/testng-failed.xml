@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.powderhook.appium.passreset.PasswordReset">
+      <class name="com.powderhook.appium.cases.joinnow.NewUser">
         <methods>
-          <include name="passReset"/>
           <include name="nameBefore"/>
           <include name="setUp"/>
+          <include name="JoinNow"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.powderhook.appium.passreset.PasswordReset -->
+      </class> <!-- com.powderhook.appium.cases.joinnow.NewUser -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -56,6 +56,7 @@ public class NewUser extends ActionHelper{
 		System.out.println(email);
 		type(JoinNowScreen.PasswordTwo,"Zoom2020");
 		type(JoinNowScreen.PasswordOne,"Zoom2020");
+		type(JoinNowScreen.PasswordTwo,"Zoom2020");
 	
 		
 		Thread.sleep(4000);
@@ -75,7 +76,7 @@ public class NewUser extends ActionHelper{
 		
 	}
 	
-	
+	/*
 	@Test
 	public void clickFeed() throws InterruptedException 
 	{
@@ -92,7 +93,7 @@ public class NewUser extends ActionHelper{
 		type(HomeScreen.lstCommentBox,"I like this. Good job!");
 	} 
 	
-	/*
+	
 	
 	@Test
 	public void clickEvents() throws InterruptedException 

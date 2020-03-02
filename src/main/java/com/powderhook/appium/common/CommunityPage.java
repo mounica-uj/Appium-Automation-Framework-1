@@ -22,15 +22,15 @@ public class CommunityPage extends ActionHelper {
 			click(CommunityScreen.ArrowBackButton);
 			click(CommunityScreen.LocalExpert);
 			Thread.sleep(2000);
-			WebElement we = findByXapth(CommunityScreen.AskMeAnything);
+			WebElement we = findByXpath(CommunityScreen.AskMeAnything);
 			Assert.assertTrue(we.isEnabled());
 			click(CommunityScreen.ArrowBackButton);
 			Thread.sleep(2000);
-			WebElement myCamps = findByXapth(CommunityScreen.MyCampsStrip);
+			WebElement myCamps = findByXpath(CommunityScreen.MyCampsStrip);
 			Assert.assertTrue(myCamps.isEnabled());
 			
 			Thread.sleep(2000);
-			 WebElement IamFollowing = findByXapth(CommunityScreen.IAmFollowingStrip);
+			 WebElement IamFollowing = findByXpath(CommunityScreen.IAmFollowingStrip);
 			//Assert.assertTrue(IamFollowing.isEnabled());
 			IamFollowing.click();
 			myCamps.click();
@@ -38,7 +38,7 @@ public class CommunityPage extends ActionHelper {
 			click(CommunityScreen.SuggestedCapms);
 			Thread.sleep(2000);
 			//click(CommunityScreen.JoinSuggestedCamps);
-			WebElement join = findByXapth(CommunityScreen.JoinSuggestedCamps);
+			WebElement join = findByXpath(CommunityScreen.JoinSuggestedCamps);
 			Assert.assertTrue(join.isEnabled());
 			click(CommunityScreen.ArrowBackButton);
 			//Thread.sleep(2000);

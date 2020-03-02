@@ -8,7 +8,7 @@ public class HomeScreen {
 	public static String lstCommunity = "//*[@text='Community']";
 	
 	public static String lstEvents = "//*[@text='Events']";
-	public static String lstTodaysEvent = "//*[@text='20']";
+	public static String lstTodaysEvent = "//*[@text='4']";
 	
 	public static String lstFeed = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.TabWidget/android.view.View[3]/android.view.View";
 	public static String lstFeedLike = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[8]/android.view.View[1]";

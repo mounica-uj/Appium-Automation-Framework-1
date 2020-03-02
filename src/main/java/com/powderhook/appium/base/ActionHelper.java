@@ -23,12 +23,12 @@ public class ActionHelper extends Base {
 
 		return appium.findElement(By.linkText(LinkText));
 	}
-	public static WebElement findByXapth(String xpath) {
+	public static WebElement findByXpath(String xpath) {
 
 		return appium.findElement(By.xpath(xpath));
 	}
 
-	public static List<WebElement> findElementsByXapth(String xpath) {
+	public static List<WebElement> findElementsByXpath(String xpath) {
 
 		return appium.findElements(By.xpath(xpath));
 	}
@@ -36,7 +36,7 @@ public class ActionHelper extends Base {
 	public static void click(String xpath) {
 		boolean res = false;
 		try {
-			findByXapth(xpath).click();
+			findByXpath(xpath).click();
 			res = true;
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -86,7 +86,7 @@ public class ActionHelper extends Base {
 
 	public static void type(String xpath, String text) {
 
-		findByXapth(xpath).sendKeys(text);
+		findByXpath(xpath).sendKeys(text);
 	}
 	
 	

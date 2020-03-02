@@ -28,22 +28,22 @@ public class FeedAction extends ActionHelper
 		@Test
 		public void clickFeed() throws InterruptedException 
 		{
-			WebElement clickFeed = findByXapth(HomeScreen.lstFeed);
+			WebElement clickFeed = findByXpath(HomeScreen.lstFeed);
 			clickFeed.click();
 			
-			WebElement clickTheFirstLike = findByXapth(HomeScreen.lstFeedLike);
+			WebElement clickTheFirstLike = findByXpath(HomeScreen.lstFeedLike);
 			clickTheFirstLike.click();
 			Thread.sleep(2000);
 			
-			WebElement clickFirstComment = findByXapth(HomeScreen.lstFeedComment);
+			WebElement clickFirstComment = findByXpath(HomeScreen.lstFeedComment);
 			clickFirstComment.click();
 			
-			WebElement clickFirstAddReply = findByXapth(HomeScreen.lstFeedAddReply);
+			WebElement clickFirstAddReply = findByXpath(HomeScreen.lstFeedAddReply);
 			clickFirstAddReply.click();
 			
 			type(HomeScreen.lstCommentBox,"I like this. Good job!");
 			
-			WebElement clickSend = findByXapth(HomeScreen.ClickSend);
+			WebElement clickSend = findByXpath(HomeScreen.ClickSend);
 			clickSend.click();
 			Thread.sleep(8000);
 		} 

@@ -17,5 +17,6 @@ public class JoinNowScreen {
 		
 		public static String SignUpButton3 = "phJoinBtn";
 		public static String FirstNameId = "phJoinBtn";
+		public static String RememberMe = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View[2]/android.app.Dialog/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[4]/android.view.View[7]/android.view.View/android.view.View[1]";
 
 }

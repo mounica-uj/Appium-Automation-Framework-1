@@ -28,23 +28,23 @@ public class CreatePost extends ActionHelper{
 					excel1.getCellValue("valid", "password"));	
 		Thread.sleep(5000);
 		
-		WebElement Home = findByXapth(HomeScreen.HomeButton);
+		WebElement Home = findByXpath(HomeScreen.HomeButton);
 		Assert.assertTrue(Home.isEnabled());
 	    
 	}	
 	@Test
 	public void CreateSimplePost() throws InterruptedException 
 	{
-		WebElement clickAddButton = findByXapth(CreateCenter.AddButton);
+		WebElement clickAddButton = findByXpath(CreateCenter.AddButton);
 		clickAddButton.click();
 		Thread.sleep(144000);
 		
-		WebElement clickTextBox = findByXapth(CreateCenter.Textbox);
+		WebElement clickTextBox = findByXpath(CreateCenter.Textbox);
 		clickTextBox.click();
 		
 		/*
 		
-		WebElement clickBack = findByXapth(CommunityScreen.ArrowBackButton);
+		WebElement clickBack = findByXpath(CommunityScreen.ArrowBackButton);
 		clickBack.click();*/
 	}	
 }

@@ -1,25 +1,20 @@
 package com.powderhook.appium.cases.joinnow;
-import java.io.File;
+
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 import org.testng.annotations.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.testng.Assert;
-import org.testng.annotations.Test;
+
 
 import com.powderhook.appium.OR.CommunityScreen;
 import com.powderhook.appium.OR.HomeScreen;
 import com.powderhook.appium.OR.JoinNowScreen;
-import com.powderhook.appium.OR.LoginScreen;
-import com.powderhook.appium.base.ActionHelper;
-import com.powderhook.appium.common.LoginPage;
-import com.powderhook.appium.utilities.ReadExcel;
 
-import io.appium.java_client.AppiumDriver;
-import io.appium.java_client.MobileElement;
-import io.appium.java_client.android.AndroidDriver;
+import com.powderhook.appium.base.ActionHelper;
+
+import io.appium.java_client.TouchAction;
 
 public class NewUser extends ActionHelper{
 	
@@ -27,19 +22,16 @@ public class NewUser extends ActionHelper{
 	public void JoinNow() throws InterruptedException 
 	{
 	
-		Thread.sleep(4000);
+		Thread.sleep(2000);
 		click(JoinNowScreen.LoginButton);
 		
-		Thread.sleep(4000);
-		
-		
-		//click(JoinNowScreen.lstJoinNow);
+		Thread.sleep(2000);
 		
 		appium.findElement(By.xpath("//*[@resource-id='phLoginJoinBtn']")).click();
 		
-		//appium.findElement(By.id("com.powderhook.app:id/phLoginJoinBtn")).click();
-		//appium.findElement(By.id("phLoginJoinBtn")).click();
-		//appium.findElement(By.xpath("//*[contains(@text,'JOIN')]")).click();
+		
+		TouchAction ts = new TouchAction(appium);
+		ts.press(207, 582).moveTo(521, 1731).release().perform();
 		
 		type(JoinNowScreen.FirstName,"John");
 		type(JoinNowScreen.LastName,"Sovereign");
@@ -56,56 +48,34 @@ public class NewUser extends ActionHelper{
 		System.out.println(email);
 		type(JoinNowScreen.PasswordTwo,"Zoom2020");
 		type(JoinNowScreen.PasswordOne,"Zoom2020");
-	
 		
+
 		Thread.sleep(4000);
-		appium.findElement(By.xpath("//*[@resource-id='phJoinBtn']")).click();
-		
-		/*WebElement ClickSignUpId = appium.findElement(By.id("phJoinBtn"));
-		ClickSignUpId.click();*/
-		
-		//I need to add a working SCROLL HERE so that Appium can click button
-		
-		/*WebElement ClickSignUp = findByXapth(JoinNowScreen.SignUpButton);
+		WebElement ClickSignUp = findByXpath(JoinNowScreen.RememberMe);
 		ClickSignUp.click();
 		
-		WebElement ClickSignUp2 = findByXapth(JoinNowScreen.SignUpButton2);
-		ClickSignUp2.click();*/
-		Thread.sleep(7000);
+		appium.findElement(By.xpath("//*[@resource-id='phJoinBtn']")).click();
+		
+		
+		Thread.sleep(9000);
 		
 	}
 	
 	
-	@Test
-	public void clickFeed() throws InterruptedException 
-	{
-		WebElement clickFeed = findByXapth(HomeScreen.lstFeed);
-		clickFeed.click();
-		
-		WebElement clickTheFirstLike = findByXapth(HomeScreen.lstFeedLike);
-		clickTheFirstLike.click();
-		Thread.sleep(4000);
-		
-		WebElement clickFirstComment = findByXapth(HomeScreen.lstFeedComment);
-		clickFirstComment.click();
-		
-		type(HomeScreen.lstCommentBox,"I like this. Good job!");
-	} 
-	
-	/*
 	
 	@Test
 	public void clickEvents() throws InterruptedException 
 	{
-		WebElement clickEvents = findByXapth(HomeScreen.lstEvents);
+		System.out.println("Starting Event");
+		WebElement clickEvents = findByXpath(HomeScreen.lstEvents);
 		clickEvents.click();
 		
-		WebElement clickTodaysEvent = findByXapth(HomeScreen.lstTodaysEvent);
+		WebElement clickTodaysEvent = findByXpath(HomeScreen.lstTodaysEvent);
 		clickTodaysEvent.click();
 		Thread.sleep(2000);
 		
-		WebElement clickBack = findByXapth(CommunityScreen.ArrowBackButton);
+		WebElement clickBack = findByXpath(CommunityScreen.ArrowBackButton);
 		clickBack.click();
-	}*/
+	}
 
 }
